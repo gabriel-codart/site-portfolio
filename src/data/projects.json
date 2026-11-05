@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "KanbanApp",
+    "description": "Sistema de gerenciamento de tarefas inspirado no Trello.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "imageUrl": "/projects/kanban.png",
+    "deployUrl": "https://kanban-app-codart.netlify.app/",
+    "githubUrl": "https://github.com/gabriel-codart/kanban-app"
+  },
+  {
+    "id": "2",
+    "title": "LuminaDash",
+    "description": "Protótipo de gerenciador de projetos e ganhos para freelancers.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "imageUrl": "/projects/kanban.png",
+    "deployUrl": "https://luminadash.netlify.app/",
+    "githubUrl": "https://github.com/gabriel-codart/lumina-dash"
+  },
+  {
+    "id": "3",
+    "title": "Leia+",
+    "description": "Plataforma de livros em domínio público.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "imageUrl": "/projects/kanban.png",
+    "deployUrl": "https://leia-mais.netlify.app/",
+    "githubUrl": "https://github.com/gabriel-codart/LeiaMais"
+  }
+]
