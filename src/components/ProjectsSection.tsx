@@ -54,7 +54,7 @@ export function ProjectsSection() {
                     {project.title}
                   </h3>
 
-                  <p className="text-sm text-zinc-300 leading-relaxed">
+                  <p className="text-sm text-zinc-300 leading-relaxed font-mono">
                     {project.description}
                   </p>
 

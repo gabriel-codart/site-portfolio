@@ -71,11 +71,13 @@ export function ExperiencesSection() {
 
               <ul className="space-y-2.5 text-sm md:text-base text-zinc-300 leading-relaxed">
                 {exp.highlights.map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <span className="text-green-400 font-mono mt-0.5 select-none">
+                  <li key={index} className="flex items-center gap-3">
+                    <span className="text-green-400 font-mono select-none">
                       &gt;
                     </span>
-                    <span>{item}</span>
+                    <span className="text-sm font-mono">
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>

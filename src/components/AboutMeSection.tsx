@@ -11,15 +11,15 @@ export function AboutMeSection() {
             Sobre Mim
           </h2>
 
-          <p className="text-zinc-100 text-base md:text-lg leading-relaxed font-medium">
+          <p className="text-zinc-100 text-base md:text-base leading-relaxed font-medium font-mono">
             Sou Gabriel Oliveira, desenvolvedor web com formação superior em Análise e Desenvolvimento de Sistemas pelo IFPI e foco em TypeScript, Next.js, React, Node.js e Python/Django.
           </p>
 
-          <p className="text-zinc-300 text-sm md:text-base leading-relaxed">
+          <p className="text-zinc-300 text-base md:text-base leading-relaxed font-mono">
             Tenho vivência prática em desenvolvimento web e ambientes ágeis (Scrum/Kanban), atuando desde a criação de interfaces responsivas até a construção de APIs e sistemas completos, como o <span className="text-green-400 font-mono">DMEIsys</span> durante meu estágio na SEMEC DMEI e entregas em Next.js, Fastify e Prisma na Juridiq.
           </p>
 
-          <p className="text-zinc-400 text-sm md:text-base leading-relaxed">
+          <p className="text-zinc-400 text-base md:text-base leading-relaxed font-mono">
             Gosto de unir organização de código, componentização e boas práticas de interface para entregar aplicações úteis, legíveis e fáceis de manter.
           </p>
         </div>

@@ -11,7 +11,7 @@ export function HomeSection() {
             Next.js • TypeScript • ShadcnUI_
           </p>
 
-          <p className="text-gray-300 text-base md:text-lg leading-relaxed">
+          <p className="text-gray-300 text-base md:text-lg leading-relaxed font-mono">
             Desenvolvedor web full stack focado em soluções escaláveis. Sistemas web, APIs REST, designs responsivos e UI/UX.
           </p>
 
