@@ -35,7 +35,7 @@ export function HomeSection() {
           </div>
         </div>
 
-        {/* Espaço reservado para o elemento visual / avatar pixelado do wireframe */}
+        {/* Espaço reservado para o elemento visual / avatar */}
         <div className="w-64 h-64 border border-green-500/40 rounded-xl flex items-center justify-center bg-black/40 shadow-[0_0_30px_rgba(34,197,94,0.1)]">
           <span className="text-green-500 font-mono text-sm animate-pulse">[Avatar / Terminal]</span>
         </div>

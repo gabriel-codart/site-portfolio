@@ -1,29 +1,38 @@
 [
   {
     "id": "1",
-    "title": "KanbanApp",
-    "description": "Sistema de gerenciamento de tarefas inspirado no Trello.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
-    "imageUrl": "/projects/kanban.png",
-    "deployUrl": "https://kanban-app-codart.netlify.app/",
-    "githubUrl": "https://github.com/gabriel-codart/kanban-app"
+    "title": "DMEIsys",
+    "description": "Sistema Full Stack para gestão de chamados técnicos desenvolvido para centralizar e modernizar as demandas de suporte do setor de TI.",
+    "technologies": ["React", "Context API", "Bootstrap", "Node.js", "MySQL"],
+    "imageUrl": "",
+    "deployUrl": "",
+    "githubUrl": ""
   },
   {
     "id": "2",
-    "title": "LuminaDash",
-    "description": "Protótipo de gerenciador de projetos e ganhos para freelancers.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
-    "imageUrl": "/projects/kanban.png",
-    "deployUrl": "https://luminadash.netlify.app/",
-    "githubUrl": "https://github.com/gabriel-codart/lumina-dash"
+    "title": "HAL9K",
+    "description": "Assistente inteligente conversacional integrado à API do Google Gemini para processamento de linguagem natural.",
+    "technologies": ["React", "TypeScript", "Node.js", "Gemini API"],
+    "imageUrl": "",
+    "deployUrl": "",
+    "githubUrl": ""
   },
   {
     "id": "3",
     "title": "Leia+",
-    "description": "Plataforma de livros em domínio público.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
-    "imageUrl": "/projects/kanban.png",
+    "description": "Plataforma de leitura para livros em domínio público com interface intuitiva e armazenamento escalável.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Google Drive API"],
+    "imageUrl": "",
     "deployUrl": "https://leia-mais.netlify.app/",
     "githubUrl": "https://github.com/gabriel-codart/LeiaMais"
+  },
+  {
+    "id": "4",
+    "title": "KanbanApp",
+    "description": "Gerenciador visual de tarefas inspirado no método Kanban, com foco em organização e fluidez de uso.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"],
+    "imageUrl": "",
+    "deployUrl": "https://kanban-app-codart.netlify.app/",
+    "githubUrl": "https://github.com/gabriel-codart/kanban-app"
   }
 ]
