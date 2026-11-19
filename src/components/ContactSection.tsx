@@ -20,7 +20,7 @@ export function ContactSection() {
   return (
     <section
       id="contato"
-      className="min-h-[80vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-16 border-t border-green-500/10"
+      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-52 border-t border-green-500/10"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Coluna de informações e botões */}
@@ -29,7 +29,7 @@ export function ContactSection() {
             <h2 className="text-3xl md:text-5xl font-extrabold text-green-400 font-mono tracking-tight">
               Contato
             </h2>
-            <p className="text-zinc-300 text-sm md:text-base leading-relaxed max-w-xl">
+            <p className="text-zinc-300 text-sm md:text-base leading-relaxed max-w-xl font-mono">
               Disponível para vagas front end, back end e full stack, consultoria técnica ou um café virtual. Resposta em até 24h.
             </p>
           </div>
@@ -39,7 +39,7 @@ export function ContactSection() {
             <button
               type="button"
               onClick={handleCopyEmail}
-              className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-md border border-green-500/60 bg-gradient-to-r from-green-950/70 to-black hover:border-green-400 transition-all font-mono text-sm text-zinc-100 cursor-pointer"
+              className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-md border border-green-500/60 bg-linear-to-r from-green-950/70 to-50% hover:border-green-400 transition-all font-mono text-sm text-zinc-100 cursor-pointer"
               title="Clique para copiar o e-mail"
             >
               <span className="truncate">{EMAIL}</span>
@@ -50,7 +50,7 @@ export function ContactSection() {
           </div>
 
           {/* Botões de acesso rápido */}
-          <div className="flex flex-col gap-3 max-w-[160px] pt-1 font-mono text-sm">
+          <div className="flex flex-col gap-3 max-w-40 pt-1 font-mono text-sm">
             <a
               href={`mailto:${EMAIL}`}
               className="border border-green-500/70 text-green-400 hover:bg-green-500/10 hover:border-green-400 px-4 py-2 rounded text-center transition-all"

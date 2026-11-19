@@ -38,7 +38,7 @@ export function ExperiencesSection() {
   return (
     <section
       id="experiencias"
-      className="min-h-[80vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-16 border-t border-green-500/10"
+      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-52 border-t border-green-500/10"
     >
       <div className="space-y-8">
         <div className="space-y-2">

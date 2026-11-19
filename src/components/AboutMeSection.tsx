@@ -2,7 +2,7 @@ export function AboutMeSection() {
   return (
     <section
       id="sobre"
-      className="min-h-[80vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-16 border-t border-green-500/10"
+      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-52 border-t border-green-500/10"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Coluna de texto */}
