@@ -54,7 +54,7 @@ export function ExperiencesSection() {
           {experiences.map((exp) => (
             <article
               key={exp.id}
-              className="border border-green-500/40 hover:border-green-400/80 rounded-lg bg-black/50 p-6 md:p-7 transition-all shadow-[0_0_20px_rgba(34,197,94,0.05)] space-y-4"
+              className="border border-green-500/40 hover:border-green-400/80 rounded-lg bg-black/50 p-6 md:p-7 transition-all hover:shadow-[0_0_20px_rgba(34,197,94,0.12)] space-y-4 hover:scale-102"
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 border-b border-green-500/15 pb-3">
                 <div>

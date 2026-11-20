@@ -1,3 +1,5 @@
+import { TiltCard } from "./TiltCard";
+
 export function HomeSection() {
   return (
     <section id="perfil" className="min-h-[85vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-12">
@@ -36,9 +38,11 @@ export function HomeSection() {
         </div>
 
         {/* Espaço reservado para o elemento visual / avatar */}
-        <div className="w-64 h-64 border border-green-500/40 rounded-xl flex items-center justify-center bg-black/40 shadow-[0_0_30px_rgba(34,197,94,0.1)]">
-          <span className="text-green-500 font-mono text-sm animate-pulse">[Avatar / Terminal]</span>
-        </div>
+        <TiltCard className="max-w-sm">
+          <div className="w-64 h-64 border border-green-500/40 rounded-xl flex items-center justify-center bg-black/40 shadow-[0_0_30px_rgba(34,197,94,0.1)]">
+            <span className="text-green-500 font-mono text-sm animate-pulse">[Avatar / Terminal]</span>
+          </div>
+        </TiltCard>
       </div>
     </section>
   );

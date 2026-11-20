@@ -24,7 +24,7 @@ export function ProjectsSection() {
           {projects.map((project) => (
             <article
               key={project.id}
-              className="group border border-green-500/40 hover:border-green-400 rounded-lg bg-black/50 overflow-hidden flex flex-col justify-between transition-all shadow-[0_0_20px_rgba(34,197,94,0.05)]"
+              className="group border border-green-500/40 hover:border-green-400 rounded-lg bg-black/50 overflow-hidden flex flex-col justify-between transition-all hover:shadow-[0_0_20px_rgba(34,197,94,0.12)] hover:scale-102"
             >
               <div>
                 {/* Área de capa local ou placeholder enquanto não houver imagem */}

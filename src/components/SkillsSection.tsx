@@ -1,3 +1,5 @@
+import { TiltCard } from "./TiltCard";
+
 interface SkillItem {
   name: string;
   badge: string;
@@ -41,7 +43,7 @@ export function SkillsSection() {
             {skills.map((skill) => (
               <div
                 key={skill.name}
-                className="group border border-green-500/40 hover:border-green-400 rounded-lg bg-black/50 p-4 flex flex-col items-center justify-center gap-2 transition-all hover:shadow-[0_0_15px_rgba(34,197,94,0.12)]"
+                className="group border border-green-500/40 hover:border-green-400 rounded-lg bg-black/50 p-4 flex flex-col items-center justify-center gap-2 transition-all hover:shadow-[0_0_15px_rgba(34,197,94,0.12)] hover:scale-102"
               >
                 <span className="text-xl md:text-2xl font-bold font-mono text-green-400 group-hover:scale-105 transition-transform">
                   {skill.badge}
@@ -56,24 +58,26 @@ export function SkillsSection() {
 
         {/* Elemento visual lateral alinhado ao wireframe */}
         <div className="lg:col-span-5 flex justify-center">
-          <div className="w-full max-w-sm h-64 border border-green-500/50 rounded-lg bg-black/60 p-5 font-mono text-xs text-green-500/75 overflow-hidden select-none shadow-[0_0_25px_rgba(34,197,94,0.08)] flex flex-col justify-between">
-            <div className="flex items-center justify-between border-b border-green-500/20 pb-2 text-green-400">
-              <span>stack_matrix.sh</span>
-              <span className="text-green-500/60">active</span>
-            </div>
+          <TiltCard className="w-full max-w-sm">
+            <div className="w-full max-w-sm h-64 border border-green-500/50 rounded-lg bg-black/60 p-5 font-mono text-xs text-green-500/75 overflow-hidden select-none shadow-[0_0_25px_rgba(34,197,94,0.08)] flex flex-col justify-between">
+              <div className="flex items-center justify-between border-b border-green-500/20 pb-2 text-green-400">
+                <span>stack_matrix.sh</span>
+                <span className="text-green-500/60">active</span>
+              </div>
 
-            <div className="space-y-1 my-auto text-[11px] leading-relaxed text-green-400/85">
-              <p>01010TS 10110NEXT 01001</p>
-              <p>11001PY 01110DJNG 10110</p>
-              <p>00111SQL 10010GIT 01101</p>
-              <p>10100DKR 01101UI 11001</p>
-            </div>
+              <div className="space-y-1 my-auto text-[11px] leading-relaxed text-green-400/85">
+                <p>01010TS 10110NEXT 01001</p>
+                <p>11001PY 01110DJNG 10110</p>
+                <p>00111SQL 10010GIT 01101</p>
+                <p>10100DKR 01101UI 11001</p>
+              </div>
 
-            <div className="border-t border-green-500/20 pt-2 text-[11px] text-green-500/60 flex justify-between">
-              <span>core: web_dev</span>
-              <span>&#47;&#47; ready</span>
+              <div className="border-t border-green-500/20 pt-2 text-[11px] text-green-500/60 flex justify-between">
+                <span>core: web_dev</span>
+                <span>&#47;&#47; ready</span>
+              </div>
             </div>
-          </div>
+          </TiltCard>
         </div>
       </div>
     </section>

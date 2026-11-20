@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { TiltCard } from "./TiltCard";
 
 const EMAIL = "gabriel.codart@gmail.com";
 
@@ -78,27 +79,29 @@ export function ContactSection() {
 
         {/* Elemento visual em pixel art inspirado no wireframe */}
         <div className="lg:col-span-5 flex justify-center">
-          <svg
-            viewBox="0 0 12 12"
-            className="w-48 h-48 md:w-56 md:h-56 text-green-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.2)]"
-            fill="currentColor"
-            shapeRendering="crispEdges"
-            aria-label="Ícone pixelado sorridente"
-          >
-            <rect x="3" y="1" width="6" height="1" />
-            <rect x="2" y="2" width="1" height="1" />
-            <rect x="9" y="2" width="1" height="1" />
-            <rect x="1" y="3" width="1" height="6" />
-            <rect x="10" y="3" width="1" height="6" />
-            <rect x="4" y="4" width="1" height="2" />
-            <rect x="7" y="4" width="1" height="2" />
-            <rect x="3" y="7" width="1" height="1" />
-            <rect x="8" y="7" width="1" height="1" />
-            <rect x="4" y="8" width="4" height="1" />
-            <rect x="2" y="9" width="1" height="1" />
-            <rect x="9" y="9" width="1" height="1" />
-            <rect x="3" y="10" width="6" height="1" />
-          </svg>
+          <TiltCard className="max-w-sm">
+            <svg
+              viewBox="0 0 12 12"
+              className="w-48 h-48 md:w-56 md:h-56 text-green-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.2)]"
+              fill="currentColor"
+              shapeRendering="crispEdges"
+              aria-label="Ícone pixelado sorridente"
+            >
+              <rect x="3" y="1" width="6" height="1" />
+              <rect x="2" y="2" width="1" height="1" />
+              <rect x="9" y="2" width="1" height="1" />
+              <rect x="1" y="3" width="1" height="6" />
+              <rect x="10" y="3" width="1" height="6" />
+              <rect x="4" y="4" width="1" height="2" />
+              <rect x="7" y="4" width="1" height="2" />
+              <rect x="3" y="7" width="1" height="1" />
+              <rect x="8" y="7" width="1" height="1" />
+              <rect x="4" y="8" width="4" height="1" />
+              <rect x="2" y="9" width="1" height="1" />
+              <rect x="9" y="9" width="1" height="1" />
+              <rect x="3" y="10" width="6" height="1" />
+            </svg>
+          </TiltCard>
         </div>
       </div>
     </section>
