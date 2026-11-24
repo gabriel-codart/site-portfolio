@@ -22,7 +22,7 @@
     "title": "Leia+",
     "description": "Plataforma de leitura para livros em domínio público com interface intuitiva e armazenamento escalável.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Google Drive API"],
-    "imageUrl": "",
+    "imageUrl": "/Preview_LeiaMais_1.jpg",
     "deployUrl": "https://leia-mais.netlify.app/",
     "githubUrl": "https://github.com/gabriel-codart/LeiaMais"
   },
@@ -31,7 +31,7 @@
     "title": "KanbanApp",
     "description": "Gerenciador visual de tarefas inspirado no método Kanban, com foco em organização e fluidez de uso.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"],
-    "imageUrl": "",
+    "imageUrl": "/Preview_KanbanApp_1.jpg",
     "deployUrl": "https://kanban-app-codart.netlify.app/",
     "githubUrl": "https://github.com/gabriel-codart/kanban-app"
   }

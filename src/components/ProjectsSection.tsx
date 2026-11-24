@@ -32,9 +32,11 @@ export function ProjectsSection() {
                   {project.imageUrl ? (
                     <Image
                       src={project.imageUrl}
-                      alt={`Capa do projeto ${project.title}`}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    alt={`Capa do projeto ${project.title}`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    loading={"eager"}
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   ) : (
                     <div className="text-center font-mono px-4">

@@ -1,6 +1,12 @@
+'use client';
+
+import { useState } from "react";
 import { TiltCard } from "./TiltCard";
+import { TypewriterStack } from "./TypewriterStack";
 
 export function HomeSection() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <section id="perfil" className="min-h-[85vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-12">
       <div className="flex flex-col md:flex-row justify-between items-center gap-12">
@@ -9,9 +15,7 @@ export function HomeSection() {
             Gabriel Oliveira
           </h1>
           
-          <p className="text-green-500/80 font-mono text-sm md:text-base">
-            Next.js • TypeScript • ShadcnUI_
-          </p>
+          <TypewriterStack/>
 
           <p className="text-gray-300 text-base md:text-lg leading-relaxed font-mono">
             Desenvolvedor web full stack focado em soluções escaláveis. Sistemas web, APIs REST, designs responsivos e UI/UX.
@@ -37,12 +41,60 @@ export function HomeSection() {
           </div>
         </div>
 
-        {/* Espaço reservado para o elemento visual / avatar */}
-        <TiltCard className="max-w-sm">
-          <div className="w-64 h-64 border border-green-500/40 rounded-xl flex items-center justify-center bg-black/40 shadow-[0_0_30px_rgba(34,197,94,0.1)]">
-            <span className="text-green-500 font-mono text-sm animate-pulse">[Avatar / Terminal]</span>
-          </div>
-        </TiltCard>
+        <div
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          <TiltCard className="max-w-sm">
+            {isHovered ? (
+              /* Smile Active */
+              <svg
+                viewBox="0 0 12 12"
+                className="w-48 h-48 md:w-56 md:h-56 text-green-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.2)]"
+                fill="currentColor"
+                shapeRendering="crispEdges"
+                aria-label="Ícone pixelado sorridente ativo"
+              >
+                <rect x="3" y="1" width="6" height="1" />
+                <rect x="2" y="2" width="1" height="1" />
+                <rect x="9" y="2" width="1" height="1" />
+                <rect x="1" y="3" width="1" height="6" />
+                <rect x="10" y="3" width="1" height="6" />
+                <rect x="4" y="4" width="1" height="1" />
+                <rect x="7" y="4" width="1" height="1" />
+                <rect x="3" y="6" width="1" height="1" />
+                <rect x="8" y="6" width="1" height="1" />
+                <rect x="4" y="7" width="4" height="1" />
+                <rect x="2" y="9" width="1" height="1" />
+                <rect x="9" y="9" width="1" height="1" />
+                <rect x="3" y="10" width="6" height="1" />
+              </svg>
+            ) : (
+              /* Smile Default */
+              <svg
+                viewBox="0 0 12 12"
+                className="w-48 h-48 md:w-56 md:h-56 text-green-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.2)]"
+                fill="currentColor"
+                shapeRendering="crispEdges"
+                aria-label="Ícone pixelado sorridente"
+              >
+                <rect x="3" y="1" width="6" height="1" />
+                <rect x="2" y="2" width="1" height="1" />
+                <rect x="9" y="2" width="1" height="1" />
+                <rect x="1" y="3" width="1" height="6" />
+                <rect x="10" y="3" width="1" height="6" />
+                <rect x="4" y="4" width="1" height="1" />
+                <rect x="7" y="4" width="1" height="1" />
+                <rect x="3" y="7" width="1" height="1" />
+                <rect x="8" y="7" width="1" height="1" />
+                <rect x="4" y="8" width="4" height="1" />
+                <rect x="2" y="9" width="1" height="1" />
+                <rect x="9" y="9" width="1" height="1" />
+                <rect x="3" y="10" width="6" height="1" />
+              </svg>
+            )}
+          </TiltCard>
+        </div>
       </div>
     </section>
   );
