@@ -8,7 +8,7 @@ export function ProjectsSection() {
   return (
     <section
       id="projetos"
-      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto py-52 border-t border-green-500/10"
+      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto pt-68 py-52 border-t border-green-500/10"
     >
       <div className="space-y-8">
         <div className="space-y-2">
