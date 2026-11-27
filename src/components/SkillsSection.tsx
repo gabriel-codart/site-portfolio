@@ -25,7 +25,7 @@ export function SkillsSection() {
   return (
     <section
       id="habilidades"
-      className="flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto pt-68 py-52 border-t border-green-500/10"
+      className="flex flex-col justify-center px-6 sm:px-8 md:px-16 max-w-6xl mx-auto py-28 md:pt-58 md:py-42 border-t border-green-500/10"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Grade de habilidades */}

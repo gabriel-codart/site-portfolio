@@ -8,7 +8,7 @@ export function HomeSection() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section id="perfil" className="min-h-[85vh] flex flex-col justify-center px-8 md:px-16 max-w-6xl mx-auto pt-80 py-72">
+    <section id="perfil" className="min-h-[85vh] flex flex-col justify-center px-6 sm:px-8 md:px-16 max-w-6xl mx-auto py-38 md:pt-80 md:py-72">
       <div className="flex flex-col md:flex-row justify-between items-center gap-12">
         <div className="space-y-6 max-w-2xl">
           <h1 className="text-5xl md:text-7xl font-extrabold text-green-400 tracking-tight font-mono">
